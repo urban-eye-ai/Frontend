@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import HomePageWrapper from "./pages/HomePageWrapper";
 import StreamPage from "./pages/StreamPage";
 import TryoutPage from "./pages/TryoutPage";
 import AlertsPage from "./pages/AlertsPage";
@@ -12,7 +12,7 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePageWrapper />} />
         <Route path="/stream" element={<StreamPage />} />
         <Route path="/tryout" element={<TryoutPage />} />
         <Route path="/alerts" element={<AlertsPage />} />

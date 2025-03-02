@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import Alerts from "../components/Alerts";
 
 const AlertsPage = () => {
-  return <div>Welcome to Home Page</div>;
+  return <Alerts />;
 };
 
 export default AlertsPage;
