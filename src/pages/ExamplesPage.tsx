@@ -11,13 +11,13 @@ const ExamplesPage = () => {
         {[
           {
             leftImage: "/images/left-image-1.png",
-            rightImage: "https://via.placeholder.com/400",
+            rightImage: "/images/right-image-1.png",
             altLeft: "Image 1",
             altRight: "Image 2",
           },
           {
-            leftImage: "https://via.placeholder.com/400",
-            rightImage: "https://via.placeholder.com/400",
+            leftImage: "/images/left-image-2.png",
+            rightImage: "/images/right-image-2.jpg",
             altLeft: "Image 3",
             altRight: "Image 4",
           },
