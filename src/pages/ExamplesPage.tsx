@@ -16,28 +16,16 @@ const ExamplesPage = () => {
             altRight: "Image 2",
           },
           {
-            leftImage: "/images/left-image-2.png",
-            rightImage: "/images/right-image-2.jpg",
-            altLeft: "Image 3",
-            altRight: "Image 4",
-          },
-          {
-            leftImage: "https://via.placeholder.com/400",
-            rightImage: "https://via.placeholder.com/400",
+            leftImage: "/images/left-image-3.jpg",
+            rightImage: "/images/right-image-3.jpg",
             altLeft: "Image 5",
             altRight: "Image 6",
           },
           {
-            leftImage: "https://via.placeholder.com/400",
-            rightImage: "https://via.placeholder.com/400",
-            altLeft: "Image 7",
-            altRight: "Image 8",
-          },
-          {
-            leftImage: "https://via.placeholder.com/400",
-            rightImage: "https://via.placeholder.com/400",
-            altLeft: "Image 9",
-            altRight: "Image 10",
+            leftImage: "/images/left-image-2.png",
+            rightImage: "/images/right-image-2.jpg",
+            altLeft: "Image 3",
+            altRight: "Image 4",
           },
         ].map((row, index) => (
           <motion.div
